@@ -12,4 +12,14 @@ Here are the following commands which can be used to install kiss-in-termux in t
 
 Enter required Information, and here you have successfully install it.
 
+# Uninstall 
+You can use following commands to uninstall kiss-in-termux from termux application.
+<pre>cd Kiss-In-Termux</pre>
+<pre>chmod +x uninstall.sh</pre>
+<pre>./uninstall.sh</pre>
+
+# One Line Install
+<pre>apt update && apt upgrade -y && apt install git -y && git clone https://github.com/AdarshAddee/Kiss-In-Termux.git</pre>
+
+## Dhanyawad
 
