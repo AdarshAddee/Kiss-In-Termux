@@ -8,11 +8,11 @@ if [ -f /data/data/com.termux/files/usr/etc/bash.bashrc ]; then
 fi
 
 if [[ -f /data/data/com.termux/files/usr/etc/Kiss-In-Termux/bash.bashrc_old ]]; then
-	cp -f /data/data/com.termux/files/usr/etc/Kiss-In-Termux/bash.bashrc_old /data/data/com.termux/files/usr/etc/bash.bashrc;
+  cp -f /data/data/com.termux/files/usr/etc/Kiss-In-Termux/bash.bashrc_old /data/data/com.termux/files/usr/etc/bash.bashrc;
 fi
 
-if [ ! -d "/data/data/com.termux/files/usr/etc/Kiss-In-Termux" ]; then
-	rm "/data/data/com.termux/files/usr/etc/Kiss-In-Termux/*"
+if [ -d "/data/data/com.termux/files/usr/etc/Kiss-In-Termux" ]; then
+  rm "/data/data/com.termux/files/usr/etc/Kiss-In-Termux/*"
 fi
 
 if [ -d "/data/data/com.termux/files/usr/etc/Kiss-In-Termux" ]; then
